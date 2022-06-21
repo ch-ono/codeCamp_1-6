@@ -55,3 +55,19 @@
   display: flex;
   align-items: center;
 }
+
+.link__white {
+  color: #fff;
+}
+
+.link__white:hover {
+  color: #8b8b8b;
+}
+
+.link__blue {
+  color: #3747b8;
+}
+
+.link__blue:hover {
+  color: #7d88de;
+}
