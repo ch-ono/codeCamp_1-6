@@ -5,3 +5,53 @@
 .logo--footer {
   width: 160px;
 }
+.content__item {
+  background-color: #fff;
+  box-shadow: 0 0 5px #3131313b;   
+  justify-content: space-between;
+  align-items: center;
+  color: #3d3d3d;
+}
+.content__title--right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 600px;
+  z-index: -1;
+  background-color: #3747b8;
+  color: #fff;
+
+}
+
+.content__title--left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 600px;
+  z-index: -1;
+  background-color: #3747b8;
+  color: #fff;
+}
+
+.content__title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content__sub-title {
+  font-size: 1.2rem;
+  margin-bottom: 34px;
+}
+
+.content__item--title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+}
