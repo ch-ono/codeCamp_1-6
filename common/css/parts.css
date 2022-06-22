@@ -56,18 +56,30 @@
   align-items: center;
 }
 
-.link__white {
+.link--white {
   color: #fff;
 }
 
-.link__white:hover {
+.link--white:hover {
   color: #8b8b8b;
 }
 
-.link__blue {
+.link--blue {
   color: #3747b8;
 }
 
-.link__blue:hover {
+.link--blue:hover {
   color: #7d88de;
+}
+
+.font--s {
+  font-size: 0.8rem;
+}
+
+.font--blue {
+  color: #3747b8;
+}
+
+.font--white {
+  color: #fff;
 }

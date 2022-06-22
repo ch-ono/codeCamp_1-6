@@ -42,7 +42,9 @@ video {
   color: black;
 }
 
-.content__solutions--title {
+.content__solutions--title, .content__ir--title{
+  position: absolute;
+  top: 0;
   padding: 60px 0 0 160px;
 }
 
@@ -51,13 +53,13 @@ video {
 }
 
 .content__ir--title {
-  padding: 50px 0 0 200px;
+  /* padding: 50px 0 0 200px; */
 }
 
 
 
 .content__table {
-  width: 1200px;
+  /* width: 1200px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -70,19 +72,15 @@ video {
 .content__item--s {
   padding: 35px 40px;
   width: 560px;
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  margin: auto 0;
 }
 
 .content__item--m {
   padding: 37px 40px 32px 40px;
   width: 880px;
   margin-top: 40px;
-}
-
-
-.content__text {
-  color: #3d3d3d;
-  font-size: 1.1rem;
-  margin: auto 0;
 }
 
 
@@ -114,7 +112,7 @@ video {
   background-color: #b6bfff;
 }
 
-.content__item--m .content__text {
+.content__text {
   margin: 50px auto auto 40px;
 }
 
@@ -136,9 +134,7 @@ video {
   margin-top: 50px;
 }
 
-.font--blue {
-  color: #3747b8;
-}
+
 
 .item__media {
   line-height: 10px;
@@ -173,5 +169,8 @@ video {
 
 .content__ir .content__item--title {
   margin-bottom: 10px;
-}
+}s
 
+.item__media, .item__hoge-pay, .item__ir {
+  width: 130px;
+}
