@@ -29,7 +29,11 @@
 }
 
 .content__table {
-  margin: -50px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  margin: -50px 165px 0 0;
 }
 
 .content__item {
@@ -38,4 +42,16 @@
 
 .content__item--title {
   margin-bottom: 7px;
+}
+
+.content__title--wide {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  min-width: 1200px;
+  height: 150px;
+  margin: 0 auto;
+  z-index: -1;
+  background-color: #3747b8;
+  color: #fff;
 }
