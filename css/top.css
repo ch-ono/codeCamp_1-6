@@ -42,18 +42,20 @@ video {
   color: black;
 }
 
-.content__solutions--title, .content__ir--title{
+.content__solutions--title {
   position: absolute;
   top: 0;
   padding: 60px 0 0 160px;
 }
 
 .content__whats-new--title {
-  padding: 50px 0 0 40px;
+  padding-left: 640px;
 }
 
 .content__ir--title {
-  /* padding: 50px 0 0 200px; */
+  position: absolute;
+  top: 0;
+  padding: 50px 0 0 200px;
 }
 
 
@@ -119,24 +121,23 @@ video {
   margin-bottom: 10px;
 }
 
-.content__whats-new .content__table {
-  margin-top: 50px;
-}
-
 
 
 .item__media {
+  width: 130px;
   line-height: 10px;
   border-left: solid 10px #9b37b8;
   padding: 0 20px 0 10px;
 }
 
 .item__hoge-pay {
+  width: 130px;
   line-height: 10px;
   border-left: solid 10px #3747b8;
   padding: 0 20px 0 10px;
 }
 .item__ir {
+  width: 130px;
   line-height: 10px;
   border-left: solid 10px #b88037;
   padding: 0 20px 0 10px;
@@ -150,6 +151,7 @@ video {
 
 .content__whats-new .content__item--m {
   padding: 37px 40px 23px 40px;
+  margin-top: 10px;
 }
 
 .content__ir {
@@ -158,8 +160,16 @@ video {
 
 .content__ir .content__item--title {
   margin-bottom: 10px;
-}s
+}
 
-.item__media, .item__hoge-pay, .item__ir {
-  width: 130px;
+.content__table {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 160px;
+  gap: 20px;
+}
+
+.content__whats-new {
+  padding-top: 50px;
 }

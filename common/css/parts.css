@@ -21,7 +21,6 @@
   z-index: -1;
   background-color: #3747b8;
   color: #fff;
-
 }
 
 .content__title--left {
@@ -82,25 +81,4 @@
 
 .font--white {
   color: #fff;
-}
-
-.content__title--wide {
-  position: absolute;
-  left: 0;
-  width: 100vw;
-  min-width: 1200px;
-  height: 150px;
-  margin: 0 auto;
-  z-index: -1;
-  background-color: #3747b8;
-  color: #fff;
-
-}
-
-.content__table {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-right: 160px;
-  gap: 20px;
 }
