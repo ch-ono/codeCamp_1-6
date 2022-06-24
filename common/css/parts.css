@@ -62,3 +62,23 @@
 .font--white {
   color: #fff;
 }
+
+
+.image__decoration {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.decoration__blue--first {
+  height: 10px;
+  width: 10px;
+  background-color: #3747b8;
+}
+
+.decoration__blue {
+  height: 10px;
+  width: 10px;
+  background-color: #b6bfff;
+}

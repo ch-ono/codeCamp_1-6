@@ -1,0 +1,139 @@
+.content__title--wide {
+  width: 100vw;
+  min-width: 1200px;
+  height: 150px;
+  background-color: #3747b8;
+  padding: 46px 0 0 200px;
+  color: #fff;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url("/common/images/background.png");
+  background-repeat: no-repeat;
+  background-position: top 530px left 0px;
+  margin-left: -20px;
+}
+
+.img--logo-s {
+  height: 10px;
+}
+
+.content__title--wide .content__title {
+  margin: 10px 0 0 0;
+}
+
+.content__top {
+  width: 800px;
+  margin: 60px auto 30px auto;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.content__flex {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
+}
+
+.content__text {
+  width: 560px;
+  line-height: 2rem;
+  padding: 70px 40px 0 160px;
+  font-size: 1.1rem;
+}
+
+.content__flex img {
+  width: 560px;
+  height: 253px;
+  object-fit: cover;
+  object-position: 0 20%;
+}
+
+.content__projects {
+  width: 1120px;
+  margin: 36px auto 0 auto;
+}
+
+.content__bg {
+  position: absolute;
+  width: 600px;
+  height: 550px;
+  z-index: -1;
+  background-color: #3747b8;
+  margin-top: -60px;
+}
+
+.content__item {
+  display: flex;
+  width: 980px;
+  margin: 95px auto 0 60px;
+  padding: 40px 85px 30px 100px;
+  font-size: 1.1rem;
+  /* align-items:flex-end; */
+}
+
+.content__left img {
+  display: block;
+  margin: 34px 0 30px 0;
+}
+
+.text--s {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.content__right {
+  padding-left: 40px;
+  line-height: 2rem;
+  padding-top: 20px;
+}
+
+.content__item--title {
+  margin-bottom: 10px;
+}
+
+.content__company {
+  width: 800px;
+  margin: 160px auto 0 auto;
+  line-height: 2rem;
+}
+.img--logo {
+  height: 28px;
+}
+
+.content__about {
+  display: flex;
+  gap: 15px;
+  margin: 30px 0 32px 0;
+  align-items: center;
+}
+
+.content__detail {
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.content__detail--title {
+  font-weight: bold;
+}
+
+.content__detail--left {
+  width: 308px;
+  margin-bottom: 30px;
+}
+
+#footerArea {
+  margin-top: 27px;
+}
+
+.content__left img {
+  width: 400px;
+  height: 230px;
+}

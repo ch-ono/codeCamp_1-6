@@ -10,6 +10,17 @@
   align-items: center;
 }
 
+.bg {
+  position: absolute;
+  z-index: -1;
+  width: 1120px;
+  height: 1400px;
+  margin: 0 auto;
+  background-image: url("/common/images/background--m.png");
+  background-repeat: no-repeat;
+  background-position: top 195px right 0;
+}
+
 .content__title {
   margin: 0;
 }
