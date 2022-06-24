@@ -35,6 +35,16 @@
   color: #fff;
 }
 
+.content__title--left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 600px;
+  z-index: -1;
+  background-color: #3747b8;
+  color: #fff;
+}
+
 .content__stock-prices--title {
   padding: 52px 0 0 200px;
 }

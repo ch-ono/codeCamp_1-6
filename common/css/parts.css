@@ -12,26 +12,6 @@
   align-items: center;
   color: #3d3d3d;
 }
-.content__title--right {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 600px;
-  z-index: -1;
-  background-color: #3747b8;
-  color: #fff;
-}
-
-.content__title--left {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 600px;
-  z-index: -1;
-  background-color: #3747b8;
-  color: #fff;
-}
 
 .content__title {
   font-size: 2rem;

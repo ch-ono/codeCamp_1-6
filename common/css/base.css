@@ -498,6 +498,7 @@ a:focus {
 }
 
 .gnav-item__lang--link:hover {
+  cursor: pointer;
   color: #9a9a9a;
 }
 
