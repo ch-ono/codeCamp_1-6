@@ -61,3 +61,8 @@
 .content__item--selected {
   color: #a3a3a3;
 }
+
+.img__schedule {
+  display: block;
+  margin: 60px auto 0 auto;
+}
