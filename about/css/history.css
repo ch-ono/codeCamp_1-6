@@ -1,6 +1,6 @@
 .content__title--wide {
   display: flex;
-  width: 100%;
+  width: 100vw;
   min-width: 1200px;
   height: 150px;
   background-color: #3747b8;
@@ -42,10 +42,10 @@
 .bg {
   position: absolute;
   z-index: -1;
-  width: 1120px;
+  width: 1125px;
   height: 1400px;
   margin: 0 auto;
   background-image: url("/common/images/background.png");
   background-repeat: no-repeat;
-  background-position: top 60px right 0;
+  background-position: top 60px right 15px;
 }
