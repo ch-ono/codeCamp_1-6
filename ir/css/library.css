@@ -46,9 +46,7 @@
 
 .content__title--wide {
   position: absolute;
-  left: 0;
-  width: 100vw;
-  min-width: 1200px;
+  width: 1200px;
   height: 150px;
   margin: 0 auto;
   z-index: -1;

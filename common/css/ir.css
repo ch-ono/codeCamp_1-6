@@ -24,8 +24,7 @@
 }
 
 .content__title--wide {
-  width: 100vw;
-  min-width: 1200px;
+  width: 1200px;
   height: 150px;
   background-color: #3747b8;
   padding: 45px 0 0 200px;
