@@ -1,5 +1,9 @@
-#headerArea {
+#mainHeaderArea {
   position: absolute;
+}
+
+#subHeaderArea {
+  background-color: #ffffff00;
 }
 
 .bg {

@@ -446,7 +446,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #727ed3;
+  color: #3747b8;
 }
 
 /* ==========================================================================
@@ -462,17 +462,49 @@ a:focus {
 
 /* ヘッダー
 -------------------------------------*/
-#headerArea {
+#mainHeaderArea {
   display: flex;
   height: 60px;
   width: 100%;
+  min-width: 1200px;
   padding: 17px 30px 17px 39px;
   background: #ffffff00;
   z-index:1;
 }
 
+#subHeaderArea {
+  position: absolute;
+  width: 100%;
+  min-width: 1200px;
+  top: 60px;
+  padding: 24px 0 34px 200px;
+  color: #3c3c3c;
+  z-index:1;
+  background-color: #fff;
+  display: none;
+  border-top: solid 2px #e3e3e3;
+  border-bottom: solid 2px #e3e3e3;
+}
+
 .header-logo-wrapper {
   margin: auto 30px auto 0;
+}
+
+.sub-header__list {
+  display: none;
+}
+
+.link--main {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3747b8;
+  margin-bottom: 10px;
+}
+
+.link--sub {
+  display: block;
+  line-height: 2rem;
 }
 
 /* グローバルナビゲーションエリア

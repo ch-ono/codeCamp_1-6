@@ -10,22 +10,59 @@
 </head>
 
 <body>
+  <script src="/common/js/base.js"></script>
   <div id="wrap">
     <div id="wrapInner">
       <header id="headerArea">
-        <a class="header-logo-wrapper" href="/top.html">
-          <img class="logo--s" src="/common/images/logo.png" alt="ほげほげHoldingsのロゴ">
-        </a><!-- / .logo -->
-        <div id="gnavArea">
-          <a href="/about.html" class="gnav-item">企業情報</a>
-          <a href="/solutions.html" class="gnav-item">事業案内</a>
-          <a href="/ir.html" class="gnav-item">IR・投資家情報</a>
-          <a href="/sustainability.html" class="gnav-item">サステナビリティ</a>
-          <a href="/pressRoom.html" class="gnav-item">プレスルーム</a>
-        </div><!-- / #gnavArea -->
-        <div class="gnav-item gnav-item__lang">JP <a class="gnav-item__lang--link">▼</a></div>
+        <div id="mainHeaderArea">
+          <a class="header-logo-wrapper" href="/top.html">
+            <img class="logo--s" src="/common/images/logo.png" alt="ほげほげHoldingsのロゴ">
+          </a><!-- / .logo -->
+          <div id="gnavArea">
+            <a href="/about.html" class="gnav-item" id="item__about">企業情報</a>
+            <a href="/solutions.html" class="gnav-item" id="item__solutions">事業案内</a>
+            <a href="/ir.html" class="gnav-item" id="item__ir">IR・投資家情報</a>
+            <a href="/sustainability.html" class="gnav-item" id="item__sustainability">サステナビリティ</a>
+            <a href="/pressRoom.html" class="gnav-item" id="item__press-room">プレスルーム</a>
+          </div><!-- / #gnavArea -->
+          <div class="gnav-item gnav-item__lang">JP <a class="gnav-item__lang--link">▼</a></div>
+        </div>
+        <div id="subHeaderArea">
+          <div class="sub-header__list" id="list__about">
+            <a href="/about.html" class="link--main">企業情報</a>
+            <a href="/about.html" class="link--sub">企業情報</a>
+            <a href="/about/history.html" class="link--sub">沿革</a>
+            <a href="/about/boardMember.html" class="link--sub"> 役員一覧</a>
+          </div>
+          <div class="sub-header__list" id="list__solutions">
+            <a href="/solutions.html" class="link--main">事業内容</a>
+            <a href="/solutions/hogeHogeFlowing.html" class="link--sub">ほげほげFlowing</a>
+            <a href="/solutions/hogeHogeASP.html" class="link--sub">ほげほげASP</a>
+            <a href="/solutions/hogeHogePay.html" class="link--sub">ほげほげPay</a>
+            <a href="#">採用事例</a>
+          </div>
+          <div class="sub-header__list" id="list__ir">
+            <a href="/ir.html" class="link--main">IR・投資家情報</a>
+            <a href="/ir/news.html" class="link--sub">IRニュース</a>
+            <a href="/ir/library.html" class="link--sub">IRライブラリー</a>
+            <a href="/ir/library/finacialStatements.html" class="link--sub">決算短信</a>
+            <a href="/ir/library/financialDocuments.html" class="link--sub">決算発表会資料</a>
+            <a href="/ir/library/shareholderNewsletter.html" class="link--sub">株主通信</a>
+            <a href="/ir/library/securitiesReport.html" class="link--sub">有価証券報告書</a>
+            <a href="/ir/schedule.html" class="link--sub">スケジュール</a>
+          </div>
+          <div class="sub-header__list" id="list__sustainability">
+            <a href="/sustainability.html" class="link--main">サステナビリティ</a>
+            <a href="/sustainability/policy.html" class="link--sub">基本方針</a>
+            <a href="/sustainability/environment.html" class="link--sub">Environment(環境)</a>
+            <a href="/sustainability/social.html" class="link--sub">Social(社会)</a>
+            <a href="/sustainability/governance.html" class="link--sub">Governance(ガバナンス)</a>
+          </div>
+          <div class="sub-header__list" id="list__press-room">
+            <a href="/pressRoom.html" class="link--main">プレスルーム</a>
+          </div>
+        </div>
       </header><!-- / #headerArea -->
-
       <div id="mainArea">
 
         <div id="contentArea">
