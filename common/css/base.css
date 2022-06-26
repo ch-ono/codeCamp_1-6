@@ -543,6 +543,10 @@ a:focus {
   width: 100%;
 }
 
+#contentArea {
+  flex: 1;
+}
+
 .content {
   width: 1200px;
   margin: 0 auto;
@@ -568,7 +572,7 @@ a:focus {
 }
 
 .footer__item--sub {
-  font-size: 0.8rem;
+  font-size: 0.83rem;
   line-height: 1.3rem;
   color: #7c7c7c;
 }

@@ -1,13 +1,19 @@
 
 .content__title--wide {
   display: flex;
-  width: 1200px;
+  width: 100%;
   height: 150px;
   background-color: #3747b8;
-  padding: 0 0 0 200px;
   color: #fff;
   align-items: center;
 }
+
+.content__title--inner {
+  width: 1200px;
+  padding: 0 0 0 200px;
+  margin: 0 auto;
+}
+
 
 .bg {
   position: absolute;

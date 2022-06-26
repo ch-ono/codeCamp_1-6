@@ -1,9 +1,14 @@
 .content__title--wide {
-  width: 1200px;
+  width: 100%;
   height: 150px;
   background-color: #3747b8;
-  padding: 46px 0 0 200px;
   color: #fff;
+}
+
+.content__title--inner {
+  width: 1200px;
+  padding: 45px 0 0 200px;
+  margin: 0 auto;
 }
 
 .bg {
