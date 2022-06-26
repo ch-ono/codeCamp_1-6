@@ -69,7 +69,7 @@
   margin-top: 60px;
 }
 .content__inner {
-  padding: 173px 0 125px 163px;
+  padding: 173px 0 96px 163px;
 }
 #ceo--msg {
   display: block;
@@ -84,4 +84,11 @@
 
 .content__text {
   width: 600px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.font--s {
+  font-size: 1rem;
+  line-height: 20px;
 }
