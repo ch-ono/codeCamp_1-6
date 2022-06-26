@@ -2,10 +2,6 @@
   position: absolute;
 }
 
-#subHeaderArea {
-  background-color: #ffffff00;
-}
-
 .bg {
   position: absolute;
   z-index: -1;

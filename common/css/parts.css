@@ -1,3 +1,8 @@
+#scroll:hover {
+  cursor: pointer;
+  color: #3747b8;
+}
+
 .logo--s {
   height: 20px;
 }
